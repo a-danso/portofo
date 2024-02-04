@@ -1,0 +1,37 @@
+body{
+    background: whitesmoke;
+    font-family: Arial;
+}
+
+.form{
+    display: grid;
+    row-gap: 17px;
+    grid-template-columns: 500px;
+    grid-template-columns: 30px, 30px, 200px, 22px;
+}
+
+.textbox {
+    border: 1px solid black;
+    width: 500px;
+    height: 30px;
+    font-size: 17px;
+    padding: 5px;
+}
+
+#messagebox {
+    height: 200px;
+}
+
+button {
+    height: 30px;
+    border: 1px solid black;
+    width: 50px;
+    background-color: transparent;
+    transition: background-color 0.7s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="static/css/style.css" />
+  </head>
+  <body>
+    <form action="submit_form" method="post" class="form">
+      <div>
+        <input class="textbox" type="email" name="email" placeholder="Email" />
+      </div>
+      <div>
+        <input
+          class="textbox"
+          type="text"
+          name="subject"
+          placeholder="Subject"
+        />
+      </div>
+      <div>
+        <textarea
+          name="message"
+          class="textbox"
+          id="messagebox"
+          cols="30"
+          rows="10"
+          placeholder="Enter your message"
+        ></textarea>
+      </div>
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>
